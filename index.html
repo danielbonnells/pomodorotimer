@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Clock - FreeCodeCamp Project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Lato|Ranga|Sansita" rel="stylesheet">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div id="box" class="container-fluid">
+  <h1>Pomodoro Timer</h1>
+  
+ <div id="pBox"> 
+   <h3>Session Time</h3><hr>
+<div class="b ion-arrow-up-b" id="incrementP"></div>
+<p><span id="minutes">25</span>:<span id ="seconds">00</span></p>
+<div class="b ion-arrow-down-b" id="decrementP"></div>
+  </div>
+ <div id="bBox"> 
+   <h3>Break Time</h3><hr>
+<div class="b ion-arrow-up-b"  id="incrementB"></div>
+<p><span id="bMinutes">5</span>:<span id ="bSeconds">00</span></p>
+<div class="b ion-arrow-down-b" id="decrementB"></div>
+  </div>
+  <div id="numberOfPomos"style="margin-bottom: 30px;"></div>
+<div id="barBox">
+   <div id="bar" class="animated fadeIn">
+    <div class="step animated fadeIn infinite"></div> 
+  </div>
+ </div>  
+  
+<br>
+<div class="b2" id="startButton">START</div>
+<div class="b2" id="pauseButton">PAUSE</div>
+
+
+  <div id="text"><h3>How It Works</h3><br>
+    <p> Decide on the task at hand then set the Pomodoro (timer) to 25 or more minutes. Work on the task until the timer expires. Take a break of 5 minutes. After every four "pomodoros", you may take a longer break of 10 minutes. </p>
+    <p style="font-size: 12px;">Source: <a href="https://tomato-timer.com/">TomatoTimer</a>
+   
+    </p>
+</div>
+  <br>
+  <p style="font-size: 16px; padding-bottom: 20px;">This project is part of my journey through <a href="www.freecodecamp.com">FreeCodeCamp</a>.</p>
+
+  
+  
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.3/howler.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
